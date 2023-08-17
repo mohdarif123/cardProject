@@ -23,6 +23,7 @@ const Home = () => {
   const handlAdd = (productData) => {
     dispatch(add(productData));
   };
+
   return (
     <>
       <Box mt={4}>
